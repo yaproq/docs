@@ -1,0 +1,48 @@
+site_name: Yaproq Docs
+copyright: Copyright &copy; 2020 - 2021 Yaproq
+repo_name: yaproq/yaproq
+repo_url: https://github.com/yaproq/yaproq
+edit_uri: ""
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  font: false
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      toggle:
+        icon: material/eye
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      toggle:
+        icon: material/eye-outline
+        name: Switch to dark mode
+  features:
+    # - navigation.indexes
+    # - navigation.instant
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    # - navigation.tracking
+    # - navigation.top
+    - search.share
+    - search.suggest
+    - toc.integrate
+extra:
+  version:
+    provider: mike
+  social:
+    - icon: fontawesome/brands/github
+      name: Yaproq on Github
+      link: https://github.com/yaproq
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+nav:
+  - Overview: index.md
