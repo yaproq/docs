@@ -40,7 +40,5 @@ markdown_extensions:
   - pymdownx.inlinehilite
 nav:
   - Overview: index.md
-  - Features: features.md
-  - Todo: todo.md
   - Installation: installation.md
   - Usage: usage.md
