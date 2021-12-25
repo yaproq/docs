@@ -24,12 +24,6 @@ theme:
         icon: material/eye-outline
         name: Switch to dark mode
   features:
-    # - navigation.indexes
-    # - navigation.instant
-    # - navigation.tabs
-    # - navigation.tabs.sticky
-    # - navigation.tracking
-    # - navigation.top
     - search.share
     - search.suggest
     - toc.integrate
@@ -46,3 +40,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
 nav:
   - Overview: index.md
+  - Features: features.md
+  - Todo: todo.md
+  - Installation: installation.md
+  - Usage: usage.md
