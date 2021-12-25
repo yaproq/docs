@@ -1,6 +1,6 @@
-## Usage
+# Usage
 
-### Comments
+## Comments
 
 ```html
 {# A single-line comment #}
@@ -11,7 +11,7 @@
 #}
 ```
 
-### Variables
+## Variables
 
 ```html
 {% var int = 1 %}
@@ -25,7 +25,7 @@
 {% var value = dictionary[key] %}
 ```
 
-### Math expressions
+## Math expressions
 
 ```
 {% var five = 5.0 %}
@@ -39,9 +39,9 @@
 {{ result }}
 ```
 
-### Control structures
+## Control structures
 
-#### If, elseif, and else
+### If, elseif, and else
 
 ```
 {% var number = 1 %}
@@ -61,7 +61,7 @@
 {% endif %}
 ```
 
-#### For loop
+### For loop
 
 ```
 {% for item in array %}
@@ -93,7 +93,7 @@
 {% endfor %}
 ```
 
-#### While loop
+### While loop
 
 ```
 {% var number = 0 %}
@@ -105,7 +105,7 @@
 {% endwhile %}
 ```
 
-#### Blocks
+### Blocks
 
 ```html
 <!doctype html>
@@ -125,7 +125,7 @@
 </html>
 ```
 
-### Including other templates
+## Including other templates
 
 ```html
 {% block body %}
@@ -137,9 +137,9 @@
 {% endblock %}
 ```
 
-### Template inheritance
+## Template inheritance
 
-#### /templates/base.html
+### /templates/base.html
 
 ```html
 <!doctype html>
@@ -159,7 +159,7 @@
 </html>
 ```
 
-#### /templates/posts.html
+### /templates/posts.html
 
 ```html
 {% extend "base.html" %}
@@ -208,7 +208,7 @@ do {
 }
 ```
 
-### Custom delimiters
+## Custom delimiters
 
 ```swift
 import Yaproq
@@ -228,9 +228,9 @@ do {
 }
 ```
 
-### Loading templates
+## Loading templates
 
-#### Name
+### Name
 
 ```swift
 import Yaproq
@@ -246,7 +246,7 @@ do {
 }
 ```
 
-#### Path
+### Path
 
 ```swift
 import Yaproq
@@ -262,9 +262,9 @@ do {
 }
 ```
 
-### Rendering templates
+## Rendering templates
 
-#### Name
+### Name
 
 ```swift
 import Yaproq
@@ -281,7 +281,7 @@ do {
 }
 ```
 
-#### Path
+### Path
 
 ```swift
 import Yaproq
@@ -298,7 +298,7 @@ do {
 }
 ```
 
-#### Template
+### Template
 
 ```swift
 import Yaproq
@@ -316,7 +316,7 @@ do {
 }
 ```
 
-### Error handling
+## Error handling
 
 ```swift
 import Yaproq
